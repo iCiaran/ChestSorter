@@ -4,7 +4,7 @@
 
     <groupId>uk.co.ciaranmoran</groupId>
     <artifactId>ChestSorter</artifactId>
-    <version>0.2-SNAPSHOT</version>
+    <version>0.2</version>
 
     <properties>
         <author>Ciaran Moran</author>
@@ -47,7 +47,7 @@
         <connection>scm:git:https://github.com/iCiaran/ChestSorter.git</connection>
         <url>https://github.com/iCiaran/ChestSorter</url>
         <developerConnection>scm:git:https://github.com/iCiaran/ChestSorter.git</developerConnection>
-      <tag>HEAD</tag>
+      <tag>ChestSorter-0.2</tag>
   </scm>
 
     <build>
