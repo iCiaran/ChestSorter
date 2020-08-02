@@ -8,6 +8,7 @@
 
     <properties>
         <author>Ciaran Moran</author>
+        <description>Plugin to sort chests</description>
         <mainClass>uk.co.ciaranmoran.chestsorter.ChestSorter</mainClass>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <apiVersion>1.16</apiVersion>
@@ -19,6 +20,19 @@
             <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
         </repository>
     </repositories>
+
+    <distributionManagement>
+        <repository>
+            <id>central</id>
+            <name>plugins-releases</name>
+            <url>http://ciaranmoran.co.uk:8082/artifactory/libs-release/</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>plugins-snapshot</name>
+            <url>http://ciaranmoran.co.uk:8082/artifactory/libs-snapshot/</url>
+        </snapshotRepository>
+    </distributionManagement>
 
     <dependencies>
         <dependency>

@@ -73,5 +73,6 @@ fabric.properties
 # Target directory
 target
 
-# Maven release properties
+# Maven release
 release.properties
+pom.xml.releaseBackup
