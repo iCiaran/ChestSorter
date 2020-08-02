@@ -72,3 +72,6 @@ fabric.properties
 
 # Target directory
 target
+
+# Maven release properties
+release.properties
